@@ -20,14 +20,8 @@ public class Main {
 				System.out.println(1000+(B*100));
 			}
 		}
-		else if(A>B && A>C){
-			System.out.println(A*100);
-			}
-		else if(B>A && B>C) {
-			System.out.println(B*100);
-		}
 		else {
-			System.out.println(C*100);
+			System.out.println(Math.max(A,Math.max(B,C))*100);
 		}
 		}
 	}
